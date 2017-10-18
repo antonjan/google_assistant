@@ -11,7 +11,7 @@ play --format=S16_LE --rate=16000 out.raw<br>
 <br>
 sudo apt-get update<br>
 sudo apt-get install python3-dev python3-venv<br>
- 1614  python3 -m venv env<br>
+python3 -m venv env<br>
 sudo apt-get install python-dev python-virtualenv<br>
 python -m pip install --upgrade google-assistant-library<br>
 python -m pip install --upgrade google-auth-oauthlib[tool]<br>
