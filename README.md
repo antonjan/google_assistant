@@ -1,14 +1,12 @@
-# google_assistant
-This repository will have my Google Assistant development code.
-I am trying to create a voise operated banking app to do payments and get statemets.<br>
+# google_assistant.<br>
+This repository will have my Google Assistant development code.<br>
+I am trying to create a voice operated banking app to do payments and get statement.<br>
 
-
-<b>Installation.</b><br>
 <b>Audio check</b><br>
 speaker-test -t wav<br>
 arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw<br>
 play --format=S16_LE --rate=16000 out.raw<br>
-<br>
+<b>Installation.</b><br>
 sudo apt-get update<br>
 sudo apt-get install python3-dev python3-venv<br>
 python3 -m venv env<br>
